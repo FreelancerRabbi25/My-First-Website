@@ -1,0 +1,150 @@
+
+
+p{
+
+    color:rgb(21, 228, 83);
+
+
+     }
+
+
+     #tumra{
+
+        color: blueviolet;
+        text-align: center;
+        font-size: 28px;
+
+     }
+
+.friend{
+
+
+    color: blueviolet;
+    background-color: rgb(24, 20, 29);
+    height: 5%;
+    font-size: 18px;
+    width: 500px;
+    
+}
+
+#kutta{
+
+
+    color: brown;
+
+
+
+}
+
+.sajek{
+
+    background-color: lightslategray;
+
+}
+.sajek{
+
+border: 5px solid green;
+
+border-radius: 5px;
+
+margin: 20px;
+
+
+padding: 40px;
+
+}
+
+
+.pro{
+
+color: goldenrod;
+
+
+
+}
+
+.pro:hover{
+
+color: blueviolet;
+background-color: rgba(11, 12, 12, 0.288);
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+input:focus{
+
+    color: green;
+    font-size: 20px;
+    font-style: bold;
+
+}
+
+
+li:nth-child(2n+1){
+
+background-color: rgb(143, 142, 142);
+
+}
+
+H1::before{
+
+    content: "Hello ";
+
+    color: rgb(255, 140, 0);
+
+}
+
+h1::after{
+
+content: " Gello ";
+
+background-color: brown;
+
+border-radius: 10px;
+margin-left: 5px;
+
+text-align: center;
+
+}
+
+
+p::before {
+    counter-increment: section; /* Increment the value of section counter by 6 */
+    content: "all bolod " counter(section) ": "; /* Display counter value in default style (decimal) */
+  }
+
+
+
+  .section{
+
+    background-color: azure;
+  }
+
+  div{
+
+height: 100px;
+
+width: 100px;
+
+  }
+
+#first{
+background-color: aqua;
+
+}
+
+#second{
+
+background-color: blueviolet;
+
+}
+
+
+#third{
+
+    background-color: blue;
+}
+
+
